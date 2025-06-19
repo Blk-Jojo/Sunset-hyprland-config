@@ -1,0 +1,63 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250617_150611
+====================================================================================================
+
+0     |Info:    Found file: dusk.orp attempting to validate header
+0     |Info:    Valid v4 profile found for dusk
+0     |Info:    Found file: off.orp attempting to validate header
+0     |Info:    Valid v4 profile found for off
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Start device detection               |
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1008  |Info:    ------------------------------------------------------
+1008  |Info:    |             Detecting I2C interfaces               |
+1008  |Info:    ------------------------------------------------------
+1009  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2705 Subsystem: 196E:141C
+1009  |Info:    Registering I2C interface: /dev/i2c-20 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    Registering I2C interface: /dev/i2c-10 Device 8086:A780 Subsystem: 1458:D000
+1009  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:2705 Subsystem: 196E:141C
+1009  |Info:    Registering I2C interface: /dev/i2c-19 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    Registering I2C interface: /dev/i2c-17 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    Registering I2C interface: /dev/i2c-8 Device 8086:A780 Subsystem: 1458:D000
+1009  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1009  |Info:    Registering I2C interface: /dev/i2c-15 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    Registering I2C interface: /dev/i2c-6 Device 8086:A780 Subsystem: 1458:D000
+1009  |Info:    Registering I2C interface: /dev/i2c-13 Device 8086:A780 Subsystem: 1458:D000
+1009  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:2705 Subsystem: 196E:141C
+1009  |Info:    Registering I2C interface: /dev/i2c-21 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    Registering I2C interface: /dev/i2c-11 Device 8086:A780 Subsystem: 1458:D000
+1009  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:2705 Subsystem: 196E:141C
+1009  |Info:    Registering I2C interface: /dev/i2c-0 Device 10DE:2705 Subsystem: 196E:141C
+1009  |Info:    Registering I2C interface: /dev/i2c-18 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    Registering I2C interface: /dev/i2c-9 Device 8086:A780 Subsystem: 1458:D000
+1009  |Info:    Registering I2C interface: /dev/i2c-16 Device 8086:7A23 Subsystem: 1458:5001
+1009  |Info:    Registering I2C interface: /dev/i2c-7 Device 8086:A780 Subsystem: 1458:D000
+1009  |Info:    Registering I2C interface: /dev/i2c-14 Device 8086:A780 Subsystem: 1458:D000
+1009  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:2705 Subsystem: 196E:141C
+1009  |Info:    Registering I2C interface: /dev/i2c-22 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    Registering I2C interface: /dev/i2c-12 Device 8086:A780 Subsystem: 1458:D000
+1009  |Info:    ------------------------------------------------------
+1009  |Info:    |               Detecting I2C devices                |
+1009  |Info:    ------------------------------------------------------
+1479  |Info:    ------------------------------------------------------
+1479  |Info:    |               Detecting I2C PCI devices            |
+1479  |Info:    ------------------------------------------------------
+1480  |Info:    ------------------------------------------------------
+1480  |Info:    |               Detecting HID devices                |
+1480  |Info:    ------------------------------------------------------
+1868  |Info:    [G502 HERO Gaming Mouse] Registering RGB controller
+1976  |Info:    [B760 GAMING X] Registering RGB controller
+2187  |Info:    ------------------------------------------------------
+2187  |Info:    |            Detecting libusb HID devices            |
+2187  |Info:    ------------------------------------------------------
+2202  |Info:    ------------------------------------------------------
+2202  |Info:    |              Detecting other devices               |
+2202  |Info:    ------------------------------------------------------
+2211  |Info:    ------------------------------------------------------
+2211  |Info:    |                Detection completed                 |
+2211  |Info:    ------------------------------------------------------
+2211  |Info:    Profile loading: Succeeded for G502 HERO Gaming Mouse @ HID: /dev/hidraw4 (Receiver) 
+Wireless Index: 255
+2211  |Info:    Profile loading: Succeeded for B760 GAMING X @ HID: /dev/hidraw5

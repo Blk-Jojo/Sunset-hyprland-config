@@ -1,0 +1,53 @@
+[global]
+# Fonts
+font = "Font Awesome 6 Free Solid 10", "Font Inconsolata Bold 10"
+markup = full
+format = "%s\n%b"
+
+# Colors (from wallpaper)
+background = "#1c1a25cc"       # muted violet-gray with alpha
+foreground = "#f3e3dc"         # soft creamy text
+frame_color = "#927690"        # subtle lavender frame
+highlight = "#c69fa5"          # dusty pink for highlights
+
+# Borders & Padding
+padding = 12
+horizontal_padding = 16
+frame_width = 2
+corner_radius = 10
+separator_height = 0
+
+# Icons (no GTK theme used)
+icon_position = left
+max_icon_size = 48
+enable_recursive_icon_lookup = false
+
+# Timeouts
+timeout = 3
+idle_threshold = 120
+
+# Size (variable height and width)
+width = (0, 300)              # 0 = variable width
+height = (0, 300)             # 0 = variable height
+max_icon_size = 48
+
+# Positioning
+origin = top-right
+offset = (20, 20)
+indicate_hidden = yes
+stack_duplicates = true
+show_indicators = false
+
+# Transparency and visual tweaks
+transparency = 20
+word_wrap = yes
+ignore_newline = no
+line_height = 0
+ellipsize = middle
+
+# Misc
+sort = yes
+min_icon_size = 0
+sticky_history = yes
+always_run_script = true
+

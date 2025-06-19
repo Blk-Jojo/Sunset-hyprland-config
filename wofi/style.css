@@ -1,0 +1,56 @@
+* {
+  font-family: "Inconsolata";
+  font-size: 14px;
+  color: #F6EAEA;
+  background-color: transparent;
+}
+
+window {
+  background-color: #23263A;
+  border: 2px solid #7CAEEB;
+  border-radius: 10px;
+  opacity: 0.92;
+}
+
+#input {
+  margin: 5px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #393947;
+  color: #FFBF8F;
+}
+
+#entry {
+  padding: 6px 10px;
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+#entry:selected {
+  background-color: #89AEDD;
+  color: #23263A;
+}
+
+#entry:selected #text {
+  color: #23263A;
+}
+
+#entry:hover {
+  background-color: #B6D7F2;
+  color: #1E1E2E;
+}
+
+#scroll {
+  margin: 5px;
+}
+
+#outer-box {
+  margin: 5px;
+  background-color: #23263A;
+  border-radius: 10px;
+}
+
+#text {
+  color: #F6EAEA;
+}

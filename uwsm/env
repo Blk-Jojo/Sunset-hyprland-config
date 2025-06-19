@@ -1,0 +1,11 @@
+env = QT_QPA_PLATFORM,wayland
+env = LIBVA_DRIVER_NAME,nvidia
+env = __GLX_VENDOR_LIBRARY_NAME,nvidia
+env = GBM_BACKEND,nvidia-drm
+env = XCURSOR_SIZE,20
+env = XCURSOR_THEME,Bibata-Modern-Ice
+env = XDG_CURRENT_DESKTOP,Hyprland
+env = HYPRCURSOR_SIZE,20
+env = HYPRCURSOR_THEME,Bibata-Modern-Ice
+env = XDG_CURRENT_DESKTOP,Hyprland
+env = QT_QPA_PLATFORM_THEME,qt6ct
