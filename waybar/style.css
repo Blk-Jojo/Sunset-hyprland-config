@@ -1,0 +1,83 @@
+* {
+  font-family: "Awesome", Inconsolata Semibold;
+  font-size: 16px;
+  border: none;
+  min-height: 0;
+}
+
+window#waybar {
+  background: rgba(20, 22, 28, 0.85); /* dark charcoal with opacity */
+  color: #e0e0e0;
+  border-radius: 12px;
+  padding: 6px 12px;
+  margin: 6px 14px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Focused window title */
+#window {
+  color: #ffffff;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 20px;
+}
+
+/* Clock - soft orange */
+#custom-clock {
+  color: #ffb284;
+  font-weight: bold;
+  margin: 5px;
+}
+
+/* CPU / RAM */
+#cpu, #memory {
+  color: #c3afff;
+  padding: 0 8px;
+}
+/* Network */
+#hyprland-language {
+  color: #D3D3FF;
+
+}
+/* Network */
+#network {
+  color: #A17AA5;
+  padding: 0 8px;
+}
+
+/* Bluetooth */
+#bluetooth {
+  color: #CA7274;
+  padding: 0 8px;
+}
+
+/* Power */
+#custom-power {
+  color: #D98074;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+/* Wofi */
+#custom-wofi {
+  color: #ffe28a;
+  padding: 0 10px;
+}
+
+/* Tray */
+#tray {
+  padding: 0 12px;
+}
+
+#custom-dunst {
+  color:#eb9a87;
+  padding: 0 10px;
+}
+#wireplumber{
+  /*background: #000000;*/
+   color: #ffffff;
+   margin: 5px;
+   }
+
+
+
